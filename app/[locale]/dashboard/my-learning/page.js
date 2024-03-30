@@ -25,13 +25,13 @@ const MyLearning = () => {
           {token ? <DashboardHeader isHome={true} /> : null}
           <div className="">
             {/* Blue Banner */}
-            <section className="flex gap-5 justify-between pr-20 pl-7 mt-6 w-full text-white bg-blue-600 rounded-2xl max-md:flex-wrap max-md:px-5 max-md:max-w-full">
+            <section className="flex gap-5 justify-between pr-20 pl-7 mt-6 py-6 lg:py-0 w-full text-white bg-blue-600 rounded-2xl max-md:flex-wrap max-md:px-5 max-md:max-w-full">
               <div className="flex gap-5 my-auto max-md:flex-wrap">
                 <img
                   loading="lazy"
                   src="/images/image23.png"
                   alt="User profile picture"
-                  className="shrink-0 rounded-full aspect-square w-[72px]"
+                  className="shrink-0 rounded-full aspect-square w-16 h-16"
                 />
                 <div className="flex flex-col grow shrink-0 my-auto basis-0 w-fit max-md:max-w-full">
                   <h1 className="text-2xl font-bold tracking-tight leading-9 max-md:max-w-full">
@@ -55,7 +55,7 @@ const MyLearning = () => {
                 loading="lazy"
                 src="/images/image1.png"
                 alt="Decorative image"
-                className="shrink-0 max-w-full aspect-[1.72] w-[265px]"
+                className="shrink-0 max-w-full hidden lg:block aspect-[1.72] w-[265px]"
               />
             </section>
             {/* Blue Banner End */}
